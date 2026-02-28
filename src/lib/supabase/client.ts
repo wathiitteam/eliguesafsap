@@ -13,7 +13,7 @@ let browserClient: SupabaseClient | undefined;
 
 export function getSupabaseClient(): SupabaseClient {
   if (!browserClient) {
-    browserClient = createClient(supabaseUrl, supabaseAnonKey, {
+    browserClient = createClient(supabaseUrl!, supabaseAnonKey!, {
       auth: {
         persistSession: true,
       },
