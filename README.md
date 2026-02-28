@@ -49,3 +49,4 @@ Puis ouvrir `http://localhost:3000`.
 
 - **Frontend** : connecter le repo à Vercel, définir les variables d’environnement (`Settings` → `Environment Variables`).
 - **Supabase** : déployer le script `supabase/schema.sql` sur le projet de prod, configurer les clés (anon + service role) côté Vercel.
+# eliguesafsap
