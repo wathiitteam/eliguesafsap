@@ -1,6 +1,7 @@
-/// <reference path="../../../../types/web-push.d.ts" />
 import { NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment -- no types for web-push on Vercel
+// @ts-ignore
 import webpush from "web-push";
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
